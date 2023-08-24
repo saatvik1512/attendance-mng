@@ -68,7 +68,7 @@ header {
     font-family: 'Special Elite', cursive;
     font-size: 1.3rem;
     cursor: pointer;
-    transition: background-image, background-color 0.2ms;
+    transition: background-color 0.2ms;
 }
 
 .teacher-profile:hover, .student-profile:hover {
