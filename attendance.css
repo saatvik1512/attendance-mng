@@ -1,0 +1,97 @@
+:root {
+    --color-1: #0a0a23;
+    --color-2: #f1be32;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    font-family: 'Special Elite', cursive;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    font-size: 2.8rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+    flex: 1;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.teacher-profile, .student-profile {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: scale 0.2s;
+    margin: 1.2rem;
+}
+
+.teacher-image, .student-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.image-of-student {
+    width: 250px;
+    height: 250px;
+}
+
+.image-of-student, .image-of-teacher {
+    box-shadow: 0 0 45px rgb(99, 99, 99);
+    border-radius: 50%;
+}
+
+.teacher-button, .student-button {
+    padding: 1.6rem;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-image, background-color 0.2ms;
+}
+
+.teacher-profile:hover, .student-profile:hover {
+    scale: 1.1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid grey;
+    font-size: 1.5rem;
+    font-family: 'Handjet', cursive;
+    font-weight: 800;
+}
+
+header, footer {
+    color: var(--color-2);
+    background-color: var(--color-1);
+}
+
+.teacher-button:hover, .student-button:hover {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
