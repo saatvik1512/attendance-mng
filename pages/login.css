@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    width: 28%;
+    gap: 5rem;
+    height: 600px;
+    justify-content: space-around;
+    min-width: 350px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 2.1rem;
+    font-family: 'Special Elite', cursive;
+}
+
+.all-Inputs-Container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+input {
+    display: block;
+}
+
+.forgot-container {
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+.forgot-container p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.all-Inputs-Container > div:not(:last-child){
+    padding-left: 1.5rem;
+    margin: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    font-family: 'Special Elite', cursive;
+}
+
+input {
+    
+}

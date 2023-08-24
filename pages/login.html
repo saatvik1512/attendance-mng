@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Urbanist&display=swap" rel="stylesheet">
     <title>Login Page</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Login</h1>
-    </div>
-    <div class="all-Inputs-Container">
-        <div class="username-container">
-            
+    <div class="container">
+        <div class="header">
+            <h1>Login</h1>
         </div>
-        <div class="password-container"></div>
-        <div class="forgot-container"></div>
+        <div class="all-Inputs-Container">
+            <div class="username-container">
+                <form>
+                    <label for="email">username: <input type="email" id="email" class ="user-email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required placeholder="enter your email" name="email"></label>
+                </form>
+            </div>
+            <div class="password-container">
+                <label for="password">password: 
+                    <input type="password" id="password" name="password" required placeholder="type your password">
+                </label>
+            </div>
+            <div class="forgot-container">
+                <p>forgot password?</p>
+            </div>
+        </div>
+        <div class="allSignIns">
+            <a href="#" class="login-button">Login</a>
+            <a href="#" class="signup-button">Sign Up</a>
+        </div>
     </div>
-    <div class="allSignIns"></div>
 </body>
 </html>
