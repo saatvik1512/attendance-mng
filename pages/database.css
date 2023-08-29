@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+header {
+    display: flex;
+    font-family: 'Special Elite', cursive;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    font-size: 2.8rem;
+    color: white;
+    background-image: linear-gradient(to bottom right, #00C0FF, #4218B8);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid grey;
+    font-size: 1.5rem;
+    font-family: 'Handjet', cursive;
+    font-weight: 800;
+    background-color: #0a0a23;
+    color: #f1be32;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid black;
+    width: 80%;
+    margin: 1rem 0;
+    flex: 1;
+    align-self: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+input {
+    border: none;
+    padding: 1rem 1rem 1rem;
+    font-size: 1.0rem;
+    font-family: 'Special Elite', cursive;
+    border-left: 1px solid grey;
+    outline: none;
+}
+
+.search-bar {
+    align-self: center;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+}
+
+.search-bar div {
+    display: inline;
+    font-size: 1.1rem;
+}
+
+.student-list {
+    margin-top: 1rem;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+ol li {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    font-family: 'Borel', cursive;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+ol li span {
+    font-size: 1rem;
+}
+
+ol li a {
+    text-decoration: none;
+    color: inherit
+} 
+
+ol li:hover{
+    scale: 1.07;
+    box-shadow: 5px 10px 15px grey;
+}
+
+ol li:active{
+    scale: 0.99;
+}
