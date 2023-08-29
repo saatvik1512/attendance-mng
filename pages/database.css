@@ -62,6 +62,7 @@ input {
     border: 1px solid black;
     border-radius: 5px;
     padding: 0.2rem 0.5rem;
+    transition: scale 0.2s;
 }
 
 .search-bar div {
@@ -109,4 +110,9 @@ ol li:hover{
 
 ol li:active{
     scale: 0.99;
+}
+
+.search-bar:hover{
+    scale: 1.1;
+    box-shadow: 4px 4px 2px grey;
 }
