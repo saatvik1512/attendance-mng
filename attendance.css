@@ -10,6 +10,9 @@ body {
     box-sizing: border-box;
     justify-content: space-between;
     height: 100vh;
+    background-image: url('images/pic3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -28,8 +31,6 @@ header {
     flex-wrap: wrap;
     gap: 8rem;
     flex: 1;
-    background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 
 }
 
@@ -41,6 +42,7 @@ header {
     cursor: pointer;
     transition: scale 0.2s;
     margin: 1.2rem;
+    background: white;
 }
 
 .teacher-image, .student-image {
@@ -89,9 +91,4 @@ footer {
 header, footer {
     color: var(--color-2);
     background-color: var(--color-1);
-}
-
-.teacher-button:hover, .student-button:hover {
-    background-color: #00DBDE;
-    background-image: linear-gradient(180deg, #00DBDE 0%, #FC00FF 100%);
 }
