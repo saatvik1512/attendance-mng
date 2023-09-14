@@ -9,8 +9,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     justify-content: space-between;
-    height: 100vh;
-    background-image: url('images/pic3.jpeg');
+    min-height: 100vh;
+    background-image: url('images/pexels-pixabay-356065.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,12 +37,10 @@ header {
 .teacher-profile, .student-profile {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     border-radius: 10px;
     cursor: pointer;
     transition: scale 0.2s;
     margin: 1.2rem;
-    background: white;
 }
 
 .teacher-image, .student-image {
@@ -58,18 +56,14 @@ header {
     height: 250px;
 }
 
-.image-of-student, .image-of-teacher {
-    box-shadow: 0 0 45px rgb(99, 99, 99);
-    border-radius: 50%;
-}
-
 .teacher-button, .student-button {
     padding: 1.6rem;
     border-radius: 10px;
     border: none;
-    font-family: 'Special Elite', cursive;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     cursor: pointer;
+    color: white;
+    background: transparent;
     transition: background-color 0.2ms;
 }
 
