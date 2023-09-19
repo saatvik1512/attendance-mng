@@ -1,0 +1,41 @@
+body {
+    padding: 50px;
+    background-image: url('../images/pexels-pixabay-356065.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-btn {
+    width: fit-content;
+    margin: 1rem auto;
+    transition: all 0.4s;
+
+}
+
+.heading { 
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.form-btn:hover{
+    scale: 1.1;
+}
